@@ -1,0 +1,427 @@
+h1 {
+    color: blue;
+    text-align: center;
+    margin-left: 3%;
+    text-shadow: 2px 2px 5px #66a3ff;
+}
+
+
+
+
+.navi {
+    margin: auto ;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    box-shadow:2px 2px 5px #bac0c9;
+
+}
+
+.navii {
+    align-items: center;
+    margin-left: calc(500px);
+
+  
+
+}
+.login{
+    padding: 1px;
+    width:200px;
+    text-align: center;
+}
+
+.navi li {
+    margin-left: 8px;
+    padding: 2px;
+ 
+}
+
+.collaps ul li a {
+    font-weight: 700;
+   
+}
+
+.navi li:hover {
+    background-color: rgb(83, 218, 83);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.navi li ul li {
+    margin: 0px;
+    padding: 0px;
+}
+
+.dropdown-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.navi li ul li {
+   
+    padding: 5px;
+    border-radius: none;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(83, 218, 83);
+
+}
+
+.navi li ul li:hover {
+    
+    border-radius: 0;
+    transition: 0.3s;
+}
+
+
+.img {
+    margin: auto 10%;
+    border-radius: 20%;
+}
+
+#view {
+    width: 100%;
+
+}
+
+.contex {
+
+    margin-top: 80px;
+    text-align: center;
+}
+
+.contex big {
+    font-weight: 700;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ele {
+    margin-top: 30px;
+    height: 220px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.ol {
+    font-weight: 600;
+}
+
+/* <exprimental */
+.wrapper {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.container-lo {
+    display: table-cell;
+    padding: 1.2em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1.heading {
+    color: #fff;
+    font-size: 1.15em;
+    font-weight: 900;
+    margin: 0 0 0.5em;
+    
+}
+
+@media (min-width: 450px) {
+    h1.heading {
+        font-size: 3.55em;
+    }
+}
+
+@media (min-width: 760px) {
+    h1.heading {
+        font-size: 3.05em;
+    }
+}
+
+@media (min-width: 900px) {
+    h1.heading {
+        font-size: 3.25em;
+        margin: 0 0 0.3em;
+    }
+}
+
+.card {
+    display: block;
+    margin-bottom: 90px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 2px;
+
+}
+
+.img-card {
+    width: 100%;
+    height: 180px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    display: block;
+    overflow: hidden;
+}
+
+.img-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+
+}
+
+.card-content {
+    padding: 15px;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(61, 51, 51);
+
+}
+
+.card-title {
+    margin-top: 0px;
+    font-weight: 500;
+
+}
+
+.card-title a {
+    color: #000;
+    text-decoration: none;
+}
+
+.cardtitle {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: rgb(50, 36, 36);
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+/*   <last */
+
+.foot {
+    height: 180px;
+    background-color: rgb(23, 21, 21);
+    font-weight: 200;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+.foot li {
+    color: white;
+}
+
+.foot .links .lio {
+    margin-top: 5px;
+}
+
+.foot .links .lio a {
+    text-decoration: none;
+}
+
+.foot .copyright {
+
+    text-align: center;
+}
+
+.foot .copyright .moto {
+    margin-bottom: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.foot .copyright li {
+    color: rgb(181, 168, 168);
+}
+
+.footer-social-icons {
+    margin-right: 30px;
+}
+
+.footer-social-icons .insta {
+    border-radius: 50%;
+    height: 45px;
+}
+
+.footer-social-icons .twitter {
+    border-radius: 50%;
+    height: 45px;
+    margin-left: 12px;
+}
+
+.footer-social-icons .linkdin {
+    border-radius: 50%;
+    height: 45px;
+    margin-left: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .navi {
+        margin: auto 10px;
+        margin-bottom: 20px;
+    }
+
+    .navbar-toggler {
+        float: left;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navi li:hover {
+        width: 100%;
+        margin-left: 0;
+        background-color: white;
+        border-radius: none;
+        transition: none;
+    }
+    .login{
+        margin-left: 12px;
+        width:fit-content;
+        text-align: center;
+    }
+
+    .navi .navbar-brand h1 {
+        text-align: center;
+        margin-left: 20%;
+    }
+
+
+    .navi .navbar-nav {
+        position: absolute;
+        z-index: 500;
+        text-align: left;
+        width: 150px;
+        background-color: white;
+        border: 1px solid black;
+        left: auto;
+        right: 0;
+    }
+
+    .navi .navbar-nav .nav-item {
+        display: block;
+        text-align: center;
+
+    }
+
+    .img {
+        width: 430px;
+        margin: auto;
+
+    }
+
+    .img img {
+        border-radius: 20px;
+        height: 250px;
+    }
+
+    .contex {
+        margin-top: 40px;
+       
+
+    }
+
+    .contex big {
+        font-weight: 700;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow: hidden;
+        
+    }
+
+    .ele {
+        box-shadow: 2px 2px 5px #66a3ff ;
+        margin-top: 40px;
+        height: 150px;
+        width: 300px;
+        font-weight: 600;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .ol {
+        font-weight: 500;
+    }
+    .ol-desc{
+        font-weight: 400;
+    }
+
+    .card {
+       
+        line-height: 1.2;
+        background-color: #fff;
+        border-radius: 2px;
+        width: 90%;
+        margin: auto ;
+        
+    
+    }
+    /*  footer section */
+    .foot {
+        height: fit-content;
+        background-color: rgb(24, 22, 22);
+        overflow: hidden;
+        display: block;
+        padding: 20px;
+    }
+
+    .foot .links {
+        font-size: small;
+        margin-left: -42px;
+        width: fit-content;
+
+    }
+
+    .foot .copyright .moto {
+
+        font-weight: 600;
+        text-shadow: #66a3ff;
+        margin-bottom: 10px;
+
+    }
+
+    .footer-social-icons {
+        z-index: 1000;
+        position: relative;
+        top: -210px;
+        right: -300px;
+
+    }
+
+
+    .footer-social-icons .twitter {
+        margin-left: 2px;
+    }
+
+    .footer-social-icons .linkdin {
+        margin-left: 2px;
+    }
+
+    .foot .copyright li {
+        font-size: small;
+    }
+
+}
